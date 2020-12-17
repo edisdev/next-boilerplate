@@ -2,7 +2,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@@": ["./public"],
       "@/*": ["./src/*"],
       "~@/*": ["./src/assets/stylesheets/*"]
     }
