@@ -1,0 +1,14 @@
+// config
+@import 'variables.scss';
+@import 'fonts.scss';
+@import 'utils.scss';
+
+// components
+@import './components/button.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/image.scss';
+
+
+// globals
+@import './global.scss';

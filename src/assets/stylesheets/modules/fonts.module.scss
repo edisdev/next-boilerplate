@@ -1,0 +1,27 @@
+$font-size: 1.6em;
+$font-size-xs: 1.2em;
+$font-size-sm: 1.4em;
+$font-size-lg: 1.6em;
+$font-size-xl: 1.8em;
+$font-size-xxl: 2em;
+$font-size-xxxl: 2.4em;
+$font-wt-thin: 200;
+$font-wt-normal: 400;
+$font-wt-medium: 500;
+$font-wt-semi: 500;
+$font-wt-bold: 900;
+
+:export{
+  font-size: $font-size;
+  font-size-xs: $font-size-xs;
+  font-size-sm: $font-size-sm;
+  font-size-lg: $font-size-lg;
+  font-size-xl: $font-size-xl;
+  font-size-xxl: $font-size-xxl;
+  font-size-xxxl: $font-size-xxxl;
+  font-wt-thin: $font-wt-thin;
+  font-wt-normal: $font-wt-normal;
+  font-wt-medium: $font-wt-medium;
+  font-wt-semi: $font-wt-semi;
+  font-wt-bold: $font-wt-bold; 
+}

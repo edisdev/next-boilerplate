@@ -1,15 +1,30 @@
 {
-  "name": "next-tring",
+  "name": "next-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -s ./public,./static -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "jsconfig-paths-webpack-plugin": "^0.1.3",
     "next": "10.0.3",
+    "normalize-scss": "^7.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "babel-loader": "^8.2.2"
   }
 }

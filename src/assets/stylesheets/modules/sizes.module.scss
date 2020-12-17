@@ -1,0 +1,12 @@
+//border
+$border-radius: 6px;
+$border-radius-sm: 3px;
+
+// grid
+$padding: 20px;
+
+:export{
+  border-radius: $border-radius;
+  border-radius-sm: $border-radius-sm;
+  padding: $padding;
+}
