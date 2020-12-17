@@ -14,6 +14,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Stroybook
+Storybook the run development server:
+```bash
+npm run storybook
+# or
+yarn storybook
+```
+
+Open [http://localhost:6006](http://localhost:6006) with your browser to see the result.
+Then add stories.js file and add example to this file a component folder.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
