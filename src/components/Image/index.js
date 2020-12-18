@@ -10,7 +10,9 @@ const Image = ({ circle = false, ...props }) => {
   if (circle) ImageClass += ' Image_Circle'
 
   return (<div className={ImageClass}>
-    <NextImage {...props}/>
+    <NextImage
+      unoptimized={true}
+      {...props}/>
   </div>)
 }
 
