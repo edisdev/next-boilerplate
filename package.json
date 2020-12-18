@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -s ./public,./static -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "export": "next build && next export"
   },
   "dependencies": {
     "jsconfig-paths-webpack-plugin": "^0.1.3",
