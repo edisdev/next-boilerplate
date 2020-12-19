@@ -30,15 +30,15 @@ module.exports = {
       use: ['style-loader', 'css-loader', 'sass-loader'],
       include: path.resolve(__dirname, '../'),
     },
-    {
-      test: /\.(svg|png|jpe?g|gif)$/i,
-      include: path.resolve(__dirname, './'),
-      use: [
-        {
-          loader: 'file-loader',
-        },
-      ]
-    });
+      {
+        test: /\.(svg|png|jpe?g|gif)$/i,
+        include: path.resolve(__dirname, './'),
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ]
+      });
 
 
     config.resolve = {

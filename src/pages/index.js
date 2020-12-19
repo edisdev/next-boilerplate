@@ -3,12 +3,15 @@ import styles from '~@/pages/home.module.scss';
 import Page from '@/components/Page';
 import Button from '@/components/Button';
 import Image from '@/components/Image';
+import Icon from '@/components/Icon';
 
 import helper from '@/utils/helper';
 
 import colors from '~@/modules/colors.module.scss';
 import sizes from '~@/modules/sizes.module.scss';
 import fonts from '~@/modules/fonts.module.scss';
+
+
 
 const Home = () => {
 
@@ -59,6 +62,24 @@ const Home = () => {
             loading="lazy"
             width={130}
             height={130} />
+        </div>
+
+        <div className="icons">
+          <Icon
+            name="ShopBag"
+            width={45}
+            height={45}
+            colors={['#FFBB6F', '#F74949', '#1c2f39', '#7b8187']} />
+
+          <Icon
+            name="Sunshine"
+            width={45}
+            height={45} />
+          
+          <Icon
+            name="HobbitHome"
+            width={45}
+            height={45} />
         </div>
       </section>
     </Page>
