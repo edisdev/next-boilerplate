@@ -7,14 +7,32 @@ export default {
 
 const AllColors = () => {
   return Object.keys(colors).map((color, index) => {
-    let style = {
+    let colorStyle = {
       backgroundColor: colors[color],
-      width: 40,
-      height: 40,
+      width: '40px',
+      height: '40px',
       borderRadius: '100%',
       marginLeft: "10px"
     }
-    return <span key={index} style={style}></span>
+    let itemStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(max-content, 1fr))',
+      gridGap: '20px',
+      justifyContent: 'flex-end',
+      borderRight: '1px solid rgb(230 229 229)',
+      paddingLeft: '15px',
+      paddingRight: '15px'
+    }
+
+    return (
+      <div style={itemStyle} key={index}>
+        <div style={colorStyle}></div>
+        <div className="m-top-5">
+          <div className="m-bottom-5">{color}</div>
+          <div>{colors[color]}</div>
+        </div>
+      </div>
+    )
   })
 }
 
