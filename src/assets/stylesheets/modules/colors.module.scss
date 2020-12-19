@@ -1,5 +1,9 @@
-$app: #2222;
+$app: #111;
+$gray: #f0f1efee;
+$orange: rgb(255, 217, 0);
 
 :export{
-  app: $app
+  app: $app;
+  gray: $gray;
+  orange: $orange
 }
