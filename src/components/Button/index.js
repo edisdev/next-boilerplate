@@ -8,49 +8,49 @@ import PropTypes from 'prop-types'
  */
 
 const Button = ({ primary, backgroundColor, size, children, ...props }) => {
-	const mode = primary ? 'button--primary' : 'button--secondary'
-	let customClass = props.className || ''
-	delete props.className
+  const mode = primary ? 'button--primary' : 'button--secondary'
+  let customClass = props.className || ''
+  delete props.className
 
-	return (
-		<button
-			type="button"
-			className={['button', `button--${size}`, mode, customClass].join(' ')}
-			style={backgroundColor && { backgroundColor }}
-			{...props}
-		>
-			{children}
-		</button>
-	)
+  return (
+    <button
+      type="button"
+      className={['button', `button--${size}`, mode, customClass].join(' ')}
+      style={backgroundColor && { backgroundColor }}
+      {...props}
+    >
+      {children}
+    </button>
+  )
 }
 
 Button.propTypes = {
-	/**
+  /**
    * Is this the principal call to action on the page?
    */
-	primary: PropTypes.bool,
-	/**
+  primary: PropTypes.bool,
+  /**
    * What background color to use
    */
-	backgroundColor: PropTypes.string,
-	/**
+  backgroundColor: PropTypes.string,
+  /**
    * How large should the button be?
    */
-	size: PropTypes.oneOf(['small', 'medium', 'large']),
-	/**
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  /**
    * Button contents
    */
-	/**
+  /**
    * Optional click handler
    */
-	onClick: PropTypes.func,
+  onClick: PropTypes.func,
 }
 
 Button.defaultProps = {
-	backgroundColor: null,
-	primary: false,
-	size: 'medium',
-	onClick: undefined,
+  backgroundColor: null,
+  primary: false,
+  size: 'medium',
+  onClick: undefined,
 }
 
 
