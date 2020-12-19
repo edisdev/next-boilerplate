@@ -9,7 +9,7 @@
     "storybook": "start-storybook -s ./public,./static -p 6006",
     "build-storybook": "build-storybook",
     "export": "next build && next export",
-    "lint": "yarn eslint src/**/*.js *.js",
+    "lint": "yarn eslint ./ --ext .js",
     "lint:fix": "yarn lint --fix",
     "precommit": "lint-staged"
   },
