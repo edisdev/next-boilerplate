@@ -1,36 +1,37 @@
-import Button from './index';
+import React from 'react'
+import Button from './index'
 
 export default {
-  title: 'Example/Button',
-  component: Button,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
-};
+	title: 'Example/Button',
+	component: Button,
+	argTypes: {
+		backgroundColor: { control: 'color' },
+	},
+}
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <Button {...args} />
 
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
 let children = <span>Button</span>
 
 Primary.args = {
-  primary: true,
-  children
-};
+	primary: true,
+	children
+}
 
-export const Secondary = Template.bind({});
+export const Secondary = Template.bind({})
 Secondary.args = {
-  children
-};
+	children
+}
 
-export const Large = Template.bind({});
+export const Large = Template.bind({})
 Large.args = {
-  size: 'large',
-  children
-};
+	size: 'large',
+	children
+}
 
-export const Small = Template.bind({});
+export const Small = Template.bind({})
 Small.args = {
-  size: 'small',
-  children
-};
+	size: 'small',
+	children
+}

@@ -1,3 +1,3 @@
-export default function helper() {
-  alert('This is helper function')
+export default function helper () {
+	alert('This is helper function')
 }
