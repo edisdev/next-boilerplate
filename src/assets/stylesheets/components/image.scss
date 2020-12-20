@@ -1,13 +1,13 @@
-.Image{
-  max-width:  max-content;
+.Image {
   max-height: max-content;
+  max-width: max-content;
 
-  img{
+  img {
     max-width: 100%;
   }
 
-  &_Circle{
-    img{
+  &_Circle {
+    img {
       border-radius: 100%;
       object-fit: cover;
     }

@@ -1,45 +1,56 @@
 @font-face {
-  font-family:'Fira Code';
-  src: url('../fonts/FiraCode-Light.ttf') format('ttf');
+  font-family: 'Fira Code';
   font-style: normal;
   font-weight: 200;
+  src: url('../fonts/FiraCode-Light.ttf') format('ttf');
 }
 
 @font-face {
-  font-family:'Fira Code';
-  src: url('../fonts/FiraCode-Medium.ttf') format('ttf');
+  font-family: 'Fira Code';
   font-style: normal;
   font-weight: 400;
+  src: url('../fonts/FiraCode-Medium.ttf') format('ttf');
 }
 
 
 @font-face {
-  font-family:'Fira Code';
-  src: url('../fonts/FiraCode-Regular.ttf') format('ttf');
+  font-family: 'Fira Code';
   font-style: normal;
   font-weight: 500;
+  src: url('../fonts/FiraCode-Regular.ttf') format('ttf');
 }
 
 @font-face {
-  font-family:'Fira Code';
-  src: url('../fonts/FiraCode-SemiBold.ttf') format('ttf');
+  font-family: 'Fira Code';
   font-style: normal;
   font-weight: 600;
+  src: url('../fonts/FiraCode-SemiBold.ttf') format('ttf');
 }
 
 @font-face {
-  font-family:'Fira Code';
-  src: url('../fonts/FiraCode-Bold.ttf') format('ttf');
+  font-family: 'Fira Code';
   font-style: normal;
   font-weight: 900;
+  src: url('../fonts/FiraCode-Bold.ttf') format('ttf');
 }
 
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6{
-  line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-weight: $font-wt-normal;
+  line-height: 1.2;
   margin: 0 0 15px;
 }
 
-strong, b {font-weight: $font-wt-medium;}
+strong,
+b {font-weight: $font-wt-medium;}
