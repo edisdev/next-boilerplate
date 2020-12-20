@@ -4,7 +4,7 @@ module.exports = {
     'git add'
   ],
   '*.{scss}': [
-    'stylelint ./src/**/*.scss --syntax=scss --fix',
+    'stylelint ./**/*.scss --fix',
     'git add'
   ]
 }
