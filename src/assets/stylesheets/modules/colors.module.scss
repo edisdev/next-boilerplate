@@ -1,9 +1,9 @@
-$app:#111;
+$app: #111;
 $gray: #f0f1efee;
 $orange: rgb(255, 208, 0);
 
-:export{
+:export {
   app: $app;
   gray: $gray;
-  orange: $orange
+  orange: $orange;
 }
