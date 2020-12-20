@@ -3,7 +3,7 @@ module.exports = {
     'eslint ./ --ext .js --fix',
     'git add'
   ],
-  '*.{css,less,sass}': [
+  '*.{scss}': [
     'stylelint ./src/**/*.scss --fix',
     'git add'
   ]
