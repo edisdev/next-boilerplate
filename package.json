@@ -14,7 +14,7 @@
     "stlint": "yarn stylelint ./src/**/*.scss --config=.stylelintrc.js",
     "stlint:fix": "yarn stlint --fix",
     "lint:fix": "yarn lint --fix",
-    "precommit": "lint-staged"
+    "precommit": "yarn lint --fix && yarn stlint --fix"
   },
   "dependencies": {
     "jsconfig-paths-webpack-plugin": "^0.1.3",
