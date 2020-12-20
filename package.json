@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook",
     "export": "next build && next export",
     "lint": "yarn eslint ./ --ext .js",
-    "stlint": "yarn stylelint ./src/**/*.scss",
+    "stlint": "yarn stylelint ./src/**/*.scss --config=.stylelintrc.js",
     "stlint:fix": "yarn stlint --fix",
     "lint:fix": "yarn lint --fix",
     "precommit": "lint-staged"
